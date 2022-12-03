@@ -26,6 +26,10 @@
 {{--        </div><!-- logo -->--}}
         <h4 class="form-title m-b-xl text-center">Iniciar Sesion</h4>
         <div class="panel-body">
+            <div>
+                <h4>Mery Judith Mamani Mamani</h4>
+                <h5>92344793</h5>
+            </div>
             <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                 {{ csrf_field() }}
 

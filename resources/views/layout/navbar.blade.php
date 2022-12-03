@@ -18,6 +18,11 @@
         <a href="{{url('logout')}}" class="navbar-toggle navbar-toggle-right collapsed p-3">
             <i class="fa fa-2x fa-sign-out"></i>
         </a>
+        <a href="{{url('logout')}}" class="navbar-toggle navbar-toggle-left collapsed p-3">
+            Mery Judith Mamani Mamani <br>
+            92344793
+        </a>
+
 
         <a href="{{url('/')}}" class="navbar-brand text-white">
             {{Auth::user()->name}}

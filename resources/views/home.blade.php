@@ -1,3 +1,5 @@
+
+
 @extends('layouts.app')
 
 @section('admin-section')
@@ -41,6 +43,10 @@
             </div><!-- .widget -->
         </a>
 
+    </div>
+    <div>
+    <h4>Mery Judith Mamani Mamani</h4>
+        <h5>92344793</h5>
     </div>
 @endsection
 
